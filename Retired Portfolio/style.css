@@ -1,0 +1,108 @@
+.main {
+    color: beige;
+    width: 100%;
+    margin-left: 3%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    
+}
+#table th {
+    font-size: 20px;
+}
+
+.wide-text {
+    color: beige;
+    padding-bottom: 1px;
+    font-size: 55px;
+}
+
+.background {
+    padding-top: 3%;
+    outline-color: beige;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 50%;
+    height: 87dvh;
+    box-shadow: 0 0 50px 10px black;
+    text-align: center;
+    opacity: 0.94;
+    padding-bottom: 3%;
+
+
+}
+.information-about-me {
+    width: auto;
+}
+.information-about-me p {
+    display: inline;
+    font-size: 30px;
+}
+
+p {
+    font-size: 50px;
+}
+
+body {
+    background-color: black;
+    background-image: url(54obu7eenrq61.gif);
+    padding-left: 3%;
+    margin: 0;
+
+
+}
+
+.links li {
+    float: right;
+    text-align: center;
+    position:relative;
+    background-color: black;
+    outline-color: black;
+    outline-width: 2px;
+    display: inline;
+    list-style-type: none;
+    margin: 1%;
+    padding: 1%;
+}
+@font-face {
+  font-family: PersonaHeader;
+  src: url(Persona5MenuFontPrototype-Regular.ttf);
+}
+
+.header {
+    margin-right: 100px;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: PersonaHeader;
+
+}   
+.funny {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a,
+a:visited {
+    font-size: 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+.note {
+    color: green;
+}
+
+.divider {
+    margin-bottom: 7px;
+}
+.emoji {
+    padding-bottom: 20%;
+    text-align: center;
+    perspective: perspective up;
+}

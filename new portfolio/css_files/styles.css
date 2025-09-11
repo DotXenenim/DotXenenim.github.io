@@ -1,0 +1,327 @@
+.links li {
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    font-family: PersonaBase;
+    margin-inline: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.links ul {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(../resources/background_stars.gif);
+}
+
+.dark_background {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+p,
+h1,
+h2,
+li,
+hr {
+    color: beige;
+}
+
+a {
+    color: whitesmoke;
+}
+
+/* START OF PARAGRAPH ONE*/
+#paragraph_1 {
+    margin-top: 50px;
+    display: flex;
+}
+
+#paragraph_1 p {
+    margin-top: 30px;
+    font-size: 40px;
+    padding-inline: 5%;
+    padding-left: 40px;
+    width: 45%;
+}
+
+#paragraph_1 #image1 {
+    margin-left: 7%;
+    border-radius: 5px;
+
+}
+
+/* END OF PARAGRAPH ONE */
+/* TITLE FOR SECTIONS */
+.section_title {
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    font-size: 100px;
+    font-family: PersonaHeader;
+}
+
+/* start of characteristics */
+#list_of_char {
+    display: flex;
+    padding-inline: 20%;
+
+
+}
+
+#list_of_char li,
+#list_of_char h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#list_of_char #strong {
+    padding-right: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* end of characteristics */
+/* START OF PARAGRAPH TWO */
+#paragraph_2 {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+#paragraph_2 p {
+    margin-top: 55px;
+    font-size: 40px;
+    padding-inline: 5%;
+    padding-left: 40px;
+    width: 45%;
+}
+
+#paragraph_2 #image2 {
+    margin-right: 5%;
+    margin-left: 3%;
+    border-radius: 5px;
+
+}
+
+/* END OF PARAGRAPH TWO */
+/* FONTS */
+@font-face {
+    font-family: PersonaHeader;
+    src: url(../resources/Persona5MenuFontPrototype-Regular.ttf);
+}
+
+@font-face {
+    font-family: PersonaBase;
+    src: url(../resources/p5hatty-1.ttf);
+}
+
+@font-face {
+    font-family: PersonaTitle;
+    src: url(../resources/Markin-LT-Ultra-Bold.ttf);
+}
+
+h2,
+th {
+    font-family: PersonaTitle;
+}
+
+li,
+p,
+td {
+    font-family: PersonaBase;
+}
+
+hr {
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: beige;
+    opacity: 0, 5;
+    height: 2px;
+}
+
+/* Useful links*/
+.useful_links {
+    padding-bottom: 20px;
+}
+
+.useful_links h2 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.useful_links p {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#last_one {
+    padding-right: 50%;
+}
+
+.dark_background #lastone {
+    padding-right: 30px;
+}
+
+footer {
+    display: flex;
+    margin: 30px;
+    padding-inline: 15px;
+    margin-left: 46%;
+    margin-right: 47.6%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: black;
+
+}
+
+.credits_text {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.Question_Title {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.Question_List {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.Question_List #faq_answer {
+    margin-inline: 7%;
+}
+
+.about_text {
+    display: flex;
+
+}
+
+.about_text p {
+    padding-top: 20px;
+    font-size: 40px;
+    width: 55%;
+}
+
+.about_text #image3 {
+    margin-top: 50px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.about_text #image4 {
+    margin-top: 50px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+#divider_on_profile_page {
+    margin-bottom: 22px;
+}
+
+.dashboard_table th,
+.dashboard_table td {
+    color: beige;
+    padding: 15px;
+    border: 2px solid beige;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 2.5%;
+}
+
+.dashboard_table th {
+    font-size: 35px;
+}
+
+.dashboard_table table {
+    padding-bottom: 20px;
+}
+
+.dashboard_table {
+    width: 100%;
+}
+
+a:hover {
+    color: red;
+}
+
+h1:hover,
+h2:hover,
+p:hover,
+li:hover,
+hr:hover{
+    color: red;
+}
+.blog_section_2 {
+    display: flex;
+}
+.blog_link{
+    margin-inline: 10%;
+    
+}
+.blog_link h2 {
+    font-size: 50px;
+    text-align: center;
+    
+}
+.blog_swot_unordered_list li {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.experience_text h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.experience_text p {
+    text-align: center;
+    font-size: 40px;
+}
+.go_back_link {
+    font-size: 35px;
+}
+.study_choice h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.study_choice p {
+    text-align: center;
+    font-size: 40px;
+}
+.ict_field_text_and_header h1 {
+    font-size: 100px;
+    text-align: center;
+}
+.ict_field_text_and_header p {
+    font-size: 40px;
+    text-align: center;
+}
+.ict_field_text_and_header img {
+    margin-left: 14%;
+}
+#banned {
+    text-align: center;
+}
