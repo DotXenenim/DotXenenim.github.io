@@ -6,12 +6,12 @@
     margin-inline: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
-
 }
 
 .links ul {
     text-align: center;
 }
+
 
 body {
     margin: 0;
@@ -25,7 +25,7 @@ body {
     border-radius: 25px;
     padding-left: 5%;
     padding-right: 5%;
-    background: rgb(0, 0, 0, 0.7);
+    background: rgb(0, 0, 0, 0.8);
 }
 
 p,
