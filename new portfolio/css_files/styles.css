@@ -34,7 +34,10 @@ ul {
     padding-right: 5%;
     background: rgb(0, 0, 0, 0.8);
 }
-
+#enter {
+    text-align: center;
+    font-size: 50px;
+}
 p,
 h1,
 h2,
